@@ -1,0 +1,90 @@
+/* Home page Styling */
+
+
+/* Header Styling */
+
+
+body.homepage{
+	background: url("images/bg-image--.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.main_title{
+	display: inline-block;
+}
+
+header{
+  background: rgba(0,0,0,0.2);	
+}
+
+header h1{
+	font-size: 2.3em;
+    font-family: "Papyrus", fantasy;
+	color: #8B008B;
+	border-bottom: 2px dotted black;
+}
+
+/* Navigation Styles */
+
+nav{
+	display: inline-block;
+	width: 82%;
+	text-align: right;
+}
+
+header li{
+	background-color: gray;
+	display: inline-block;
+	margin-right: 5px;
+	border-radius: 4px;
+}
+
+nav a {
+	font-size: 1.4em;
+	color: aliceblue;
+	margin-bottom: 2px;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: black;
+	border-bottom: 2px solid white;
+}
+
+
+.text1{
+	padding-top: 200px;
+	padding-left: 50px;
+	font-size: 3.1em;
+	color: aliceblue;
+	font-family: "Garamond", serif;
+}
+
+
+/* Styling for tourest and other pages */
+
+.text2{
+	padding-top: 5px;
+	padding-left: 50px;
+	font-size: 2.2em;
+	color: black;
+	font-family: "Garamond", serif;
+	border-bottom: 2px solid black;
+}
+
+body{
+	background-color: lightgray;
+}
+
+img {
+	padding-top: 50px;
+	padding-left: 110px;
+}
+
+.text3{
+	padding-top: 5px;
+	padding-left: 50px;
+	font-size: 1.2em;
+	color: black;
+}
